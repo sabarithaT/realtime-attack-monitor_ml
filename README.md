@@ -1,20 +1,20 @@
-# AI-Driven Cyber Threat Logger
+AI-Driven Cyber Threat Logger
 
 A Python-based cybersecurity application that monitors and analyzes security events using machine learning and rule-based threat detection. The project provides a Flask web dashboard for viewing events, suspicious activity, and threat severity.
 
-## Features
+Features
 
-- **Interactive Dashboard:** View event counts, alerts, severity levels, and predicted classes.
-- **Threat Detection:** Identify simulated DDoS activity, brute-force attempts, SQL injection patterns, and port scans.
-- **Machine Learning:** Classify traffic patterns using trained machine-learning models.
-- **Event Logging:** Record and review security events.
-- **Severity Classification:** Categorize events according to their assigned severity.
-- **Ledger Integrity:** Verify the integrity of recorded events using a hash-chain ledger.
-- **Data Import:** Support for importing data for analysis.
-- **Live Monitoring:** Optional network traffic analysis, depending on configuration.
-- **Notifications and Integrations:** Optional email alerts and external logging integrations.
+Interactive Dashboard: View event counts, alerts, severity levels, and predicted classes.
+Threat Detection: Identify simulated DDoS activity, brute-force attempts, SQL injection patterns, and port scans.
+Machine Learning: Classify traffic patterns using trained machine-learning models.
+Event Logging: Record and review security events.
+Severity Classification: Categorize events according to their assigned severity.
+Ledger Integrity: Verify the integrity of recorded events using a hash-chain ledger.
+Data Import: Support for importing data for analysis.
+Live Monitoring: Optional network traffic analysis, depending on configuration.
+Notifications and Integrations: Optional email alerts and external logging integrations.
 
-## Technologies Used
+ Technologies Used
 
 - Python 3.12
 - Flask
@@ -26,14 +26,14 @@ A Python-based cybersecurity application that monitors and analyzes security eve
 - Machine Learning
 - Network Security Monitoring
 
-## Installation and Setup
+ Installation and Setup
 
-### Prerequisites
+ Prerequisites
 
 - Python 3.12
 - Visual Studio Code or another Python editor
 
-### Steps
+ Steps
 
 1. Download `cyber-threat-logger.zip` from this repository.
 2. Extract the ZIP file.
@@ -68,21 +68,21 @@ A Python-based cybersecurity application that monitors and analyzes security eve
 
 Keep the terminal open while the application is running.
 
-## Testing Status
+ Testing Status
 
 The application has been started locally, and simulated events have produced dashboard updates. Further testing is needed to validate model accuracy, event persistence, ledger integrity, live network monitoring, email delivery, and external integrations.
 
-## Responsible Use
+ Responsible Use
 
 Use network monitoring and security testing features only on systems you own or are authorized to assess. Machine-learning predictions and alerts should be verified before being treated as confirmed incidents.
 
-## Future Improvements
+ Future Improvements
 
 - Validate detection accuracy with suitable datasets.
 - Test live traffic capture in an authorized lab.
 - Improve alert filtering and event analysis.
 - Validate notification and external integration features.
 
-## License
+ License
 
 No license has been specified for this project yet.
